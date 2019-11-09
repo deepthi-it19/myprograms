@@ -1,10 +1,8 @@
 #include <stdio.h>
 int main() {
     int n;
+    char result[4];
     printf("enter the numer :");
     scanf("%d",&n);
-    if(n%2==0)
-    printf("the given nr %d is even",n);
-    else
-    printf("the given nr %d is odd",n);
+    (n%2==0)? printf("%d is even",n):printf("%d is odd",n);
 }
